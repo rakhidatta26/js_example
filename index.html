@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>JS</title>
+
+    <!-- css link -->
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+ 
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>1. click the button to change the text</h2>
+      <button type="button" class="btn btn-dark" onclick="textChange()">Text change</button>
+      <h3 id="t_h3">lorem</h3>
+      <hr>
+
+     <h2>2. click the button to change the image</h2>
+      <button type="button" class="btn btn-success" onclick="imageChange()">image change</button>
+      <h3 id="img"><img src="images/smile.jpeg" alt=""></h3>
+      <hr>
+
+      <h2>3. Date and Time</h2>
+      <button type="button" class="btn btn-primary" onclick="dateTime()">Date and Time</button>
+      <h3 id="dt">Date and Time</h3>
+      <hr>
+
+      <h2>4. click the button to on/off the bulb</h2>
+      <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb On</button>
+      <img id="im" src="images/off.gif" alt="">
+      <button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb Off</button>
+      <hr>
+
+      <h2>5.click the button to show smile or sad</h2>
+      <button type="button" class="btn btn-success" onclick="smile()">Smile</button>
+       <img id="SD" src="images/sad.jpeg" alt="">
+      <button type="button" class="btn btn-warning" onclick="sad()">Sad</button>
+      <hr>
+
+      <h2>6. click the button to show a border on the text</h2>
+      <button type="button" class="btn btn-primary" onclick="showBorder()">Show Border</button>
+      <h4 id="SB">Lorem ipsum dolor, sit.</h4>
+      <hr>
+
+      <h2>7. click the button to show a border on the image</h2>
+      <button type="button" class="btn btn-danger" onclick="borderImage()">Show border on Image</button>
+      <img id="SI" src="images/demo.jpeg" alt="">
+      <hr>
+
+      <h2>8. click the button to show/hide the text</h2>
+      <button type="button" class="btn btn-success" onclick="showText()">Show Text</button>
+      <button type="button" class="btn btn-danger" onclick="hideText()">Hide Text</button>
+      <h3 id="tsh">Lorem ipsum dolor sit, amet.</h3>
+      <hr>
+
+      <h2>9. click the button to show/hide the image</h2>
+      <button type="button" class="btn btn-primary" onclick="showImage()">Show</button>
+      <button type="button" class="btn btn-warning" onclick="hideImage()">Hide</button>
+      <img id="SH" src="images/demo.jpeg" alt="">
+      <hr> 
+
+
+      <h2>10. click the button to show the result</h2>
+      <button type="button" class="btn btn-dark" onclick="showResult()">Result</button>
+      <h3 id="result">Show Result</h3>
+      <hr>
+
+      <h2>11. change font size</h2>
+      <button type="button" class="btn btn-success" onclick="fontSize()">change size</button>
+      <h3 id="size">Lorem ipsum dolor sit amet.</h3>
+      <hr>
+
+      <h2>12. change color</h2>
+      <button type="button" class="btn btn-primary" onclick="changeColor()">Color Change</button>
+      <h3 id="color">Lorem, ipsum, dolor.</h3>
+      <hr>
+      
+      <h2>13. alert box</h2>
+      <button type="button"  class="btn btn-secondary" onclick="alertBox()">show alert</button>
+      <h3 id="alert">show alert</h3>
+      <hr>
+
+      <h2>14. show length</h2>
+      <button type="button" class="btn btn-success" onclick="showLength()">Length</button>
+      <h6>Lorem, ipsum dolor sit.</h6>
+      <h6>Lorem, ipsum dolor sit.</h6>
+      <h6>Lorem, ipsum dolor sit.</h6>
+      <h6>Lorem, ipsum dolor sit.</h6>
+      <h6>Lorem, ipsum dolor sit.</h6>
+      <hr>
+
+      <h2>15.use of classname</h2>
+      <button type="button" class="btn btn-primary" onclick="cName()">class name</button>
+      <p class="p">Lorem, ipsum, dolor.</p>
+      <p class="p">Lorem, ipsum, dolor.</p>
+      <p class="p">Lorem, ipsum, dolor.</p>
+      <hr>
+
+      <h2>16.Change background color</h2>
+      <button class="btn btn-dark" onclick="changeBgColor()">Change bg-color</button>
+        <h3 id="bg">Background Color</h3>
+      <hr>
+
+      <h2>17. use of variable</h2>
+      <button type="button" class="btn btn-success" onclick="showVari()">variable</button>
+      <p id="vari">result</p>
+      <hr>
+
+      <h2>18.use of let </h2>
+      <button type="button" class="btn btn-success" onclick="showlet()">let</button>
+      <p id="let">result</p>
+      <hr>
+
+      <h2>19.use of constant </h2>
+      <button type="button" class="btn btn-success" onclick="showCons()">constant</button>
+      <p id="cons">result</p>
+      <hr>
+
+      <h2>20.mixed example </h2>
+      <button type="button" class="btn btn-success" onclick="showMix()">Example</button>
+      <h3 id="mix"></h3>
+      <hr>
+      <h2>21.The Assignment (=) Operator</h2>
+      <button type="button" class="btn btn-success"onclick="assign()">Assignment</button>
+      <p id="assign"></p>
+      <hr>
+
+      <h2>22.The multiplication (*) Operator </h2>
+      <button type="button" class="btn btn-success" onclick="multi()">Multiply</button>
+      <h3 id="multi"></h3>
+      <hr>
+
+      <h2>23. String Comparison</h2>
+      <button type="button" class="btn btn-success" onclick="stComparison()">string</button>
+      <h3 id="com"></h3>
+      <hr>
+
+      <h2>24. js object</h2>
+      <button type="button" class="btn btn-success" onclick="jsObj()">Object</button>
+      <h3 id="object"></h3>
+      <hr>
+
+      <h2>25. new Date</h2>
+      <button type="button" class="btn btn-primary" onclick="nDate()">Date</button>
+      <h3 id="new"></h3>
+      <hr>
+
+      <h2>26. new Date(date string)</h2>
+      <button type="button" class="btn btn-primary" onclick="dString()">Date string</button>
+      <h3 id="string"></h3>
+      <hr>
+      <h2>27. new Date(year,month)</h2>
+      <button type="button" class="btn btn-primary" onclick="yMonth()">year & Month</button>
+      <h3 id="ym"></h3>
+      <hr>
+      <h2>28. new Date(year,month,day,hours)</h2>
+      <button type="button" class="btn btn-primary" onclick="yDay()">click me</button>
+      <h3 id="ymdh"></h3>
+      <hr>
+
+      <h2>29. if else</h2>
+      <button type="button" class="btn btn-success" onclick="ifElse()">click me</button>
+      <h3 id="IE"></h3> 
+      <hr>
+      <h2>30. For loop</h2>
+      <button type="button" class="btn btn-success" onclick="forL()">loop</button>
+      <h3 id="loop"></h3>
+      <hr>
+    </div>
+
+   <!-- js link-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
